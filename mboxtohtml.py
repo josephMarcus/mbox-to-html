@@ -32,6 +32,6 @@ def mbox_to_html(mbox_file,output_dir):
             f.write(f"<pre>{content}</pre>\n")
             f.write("</body>\n</html>\n")
         print(f"created {filepath}")
-mbox_file='mails.mbox'
-output_dir='email.html'
+mbox_file='mbox file location '
+output_dir='your folder location'
 mbox_to_html(mbox_file,output_dir)
